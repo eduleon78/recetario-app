@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Recetario</title>
+  <title>Mi Recetario | Recetas Fáciles, Rápidas y Caseras</title>
+  <meta name="description" content="Descubre las mejores recetas caseras, rápidas y sencillas. Guías paso a paso para cocinar deliciosos platos en casa.">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+
   <header>
     <div class="header-content">
       <h1>🍳 Mi Recetario</h1>
-      <p class="subtitle">Colección personal de recetas deliciosas y fáciles</p>
+      <p class="subtitle">Colección personal de recetas deliciosas y fáciles de preparar</p>
       
       <input type="text" id="search-input" placeholder="Buscar por receta o ingrediente...">
       
@@ -20,29 +22,95 @@
     </div>
   </header>
 
-  <main>
-    <section id="recipe-list" class="recipe-grid"></section>
-  </main>
-
-  <footer>
-  <div class="footer-content">
-    <p>Hecho con ❤️ y Vanilla JavaScript | Recetario Personal</p>
-    <div class="social-links">
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
-        <i class="fab fa-x-twitter"></i>
-      </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
+  <!-- Banner Publicitario Superior (AdSense) -->
+  <div class="ad-container ad-top">
+    <div class="ad-placeholder">
+      <span class="ad-label">PUBLICIDAD</span>
+      <p>Espacio Reservado para Google AdSense (Leaderboard 728x90)</p>
     </div>
   </div>
-</footer>
+
+  <!-- Sección SEO de Bienvenida / Presentación -->
+  <section class="welcome-section">
+    <div class="welcome-content">
+      <h2>Bienvenido a tu cocina en casa</h2>
+      <p>
+        Aquí encontrarás una selección cuidada de platos explicados paso a paso. 
+        Desde desayunos nutritivos y cenas rápidas hasta recetas tradicionales para compartir en familia. 
+        ¡Explora nuestro catálogo y empieza a cocinar hoy mismo!
+      </p>
+    </div>
+  </section>
+
+  <main class="layout-container">
+    <!-- Columna Principal: Grilla de Recetas -->
+    <section id="recipe-list" class="recipe-grid"></section>
+
+    <!-- Barra Lateral: Afiliados y Monetización -->
+    <aside class="sidebar">
+      
+      <!-- Bloque 1: Producto Recomendado / Afiliados -->
+      <div class="widget-box affiliate-widget">
+        <span class="badge-recom">Recomendado</span>
+        <h3>🔪 Utensilio del Mes</h3>
+        <img src="https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&w=400&q=80" alt="Sartén de hierro fundido" class="affiliate-img">
+        <h4>Sartén de Hierro Fundido 26cm</h4>
+        <p>Ideal para sellar carnes y lograr hamburguesas perfectas en casa.</p>
+        <a href="https://www.amazon.com/dp/ASIN_PRODUCTO" target="_blank" rel="nofollow sponsored" class="btn-affiliate">
+          Ver en Amazon <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <!-- Bloque 2: AdSense Lateral (Medium Rectangle 300x250) -->
+      <div class="widget-box ad-sidebar">
+        <div class="ad-placeholder-sidebar">
+          <span class="ad-label">PUBLICIDAD</span>
+          <p>Espacio AdSense (300x250)</p>
+        </div>
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- Footer Profesional con Secciones y Políticas -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3>🍳 Mi Recetario</h3>
+        <p>Tu portal de cocina práctica. Recetas explicadas sin complicaciones para cocinar como un profesional.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Enlaces Rápidos</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#recipe-list">Recetas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-legal">
+        <h4>Legal</h4>
+          <ul>
+            <li><a href="afiliados.html">Aviso de Afiliación</a></li>
+            <li><a href="privacidad.html">Política de Privacidad</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Mi Recetario. Todos los derechos reservados. Desarrollado con Vanilla JS.</p>
+    </div>
+  </footer>
 
   <script type="module" src="src/app.js"></script>
 </body>

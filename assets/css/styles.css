@@ -351,3 +351,468 @@ footer {
   color: var(--primary-color);
   transform: translateY(-2px);
 }
+
+/* ==========================================================================
+   LAYOUT PRINCIPAL CON SIDEBAR (GRID DE 2 COLUMNAS)
+   ========================================================================== */
+.layout-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr; /* Por defecto 1 columna para móviles */
+  gap: 2rem;
+}
+
+/* En pantallas de escritorio (computadoras/tablets grandes) */
+@media (min-width: 900px) {
+  .layout-container {
+    grid-template-columns: 1fr 320px; /* Recetas toma el resto, Sidebar 320px fijos */
+  }
+}
+
+/* ==========================================================================
+   BANNERS PUBLICITARIOS (ADSENSE & PLACEHOLDERS)
+   ========================================================================== */
+.ad-container {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  padding: 0 1.5rem;
+}
+
+.ad-placeholder {
+  background-color: #f1f3f5;
+  border: 2px dashed #ced4da;
+  border-radius: var(--radius-sm);
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.ad-label {
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #adb5bd;
+  margin-bottom: 0.25rem;
+}
+
+/* ==========================================================================
+   SIDEBAR & WIDGETS DE AFILIADOS
+   ========================================================================== */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.widget-box {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Widget de Afiliado */
+.affiliate-widget {
+  position: relative;
+  text-align: center;
+}
+
+.badge-recom {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: #2b2d42;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.affiliate-widget h3 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.affiliate-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.75rem;
+}
+
+.affiliate-widget h4 {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+.affiliate-widget p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.btn-affiliate {
+  display: inline-block;
+  width: 100%;
+  background-color: #ff9900; /* Color característico de botones de compra/Amazon */
+  color: #fff;
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-affiliate:hover {
+  background-color: #e68a00;
+}
+
+/* Placeholder AdSense Sidebar */
+.ad-placeholder-sidebar {
+  background-color: #f1f3f5;
+  border: 2px dashed #ced4da;
+  border-radius: var(--radius-sm);
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* Widget Newsletter */
+.newsletter-widget h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-widget p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.newsletter-input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.btn-newsletter {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   SECCIÓN DE BIENVENIDA (SEO HOME TEXT)
+   ========================================================================== */
+.welcome-section {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  padding: 0 1.5rem;
+}
+
+.welcome-content {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.welcome-content h2 {
+  font-size: 1.4rem;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+.welcome-content p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   FOOTER MEJORADO Y ELEGANTE
+   ========================================================================== */
+footer {
+  background-color: var(--surface-color);
+  border-top: 1px solid var(--border-color);
+  margin-top: 4rem;
+  padding: 3rem 1.5rem 1rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer-brand h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-brand p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.footer-links h4, 
+.footer-legal h4, 
+.footer-social h4 {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-main);
+}
+
+.footer-links ul, 
+.footer-legal ul {
+  list-style: none;
+}
+
+.footer-links li, 
+.footer-legal li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a, 
+.footer-legal a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+
+.footer-links a:hover, 
+.footer-legal a:hover {
+  color: var(--primary-color);
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   PÁGINAS LEGALES (AFILIADOS Y PRIVACIDAD)
+   ========================================================================== */
+.legal-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.legal-content {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.legal-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.legal-content h3 {
+  font-size: 1.2rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-main);
+}
+
+.legal-content p, .legal-content ul {
+  font-size: 0.95rem;
+  color: #4a4e69;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.legal-content ul {
+  padding-left: 1.5rem;
+}
+
+/* ==========================================================================
+   PÁGINA DE CONTACTO
+   ========================================================================== */
+.contact-page {
+  max-width: 1000px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1.2fr;
+  }
+}
+
+.contact-info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-info p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.info-item i {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  background-color: rgba(230, 57, 70, 0.1);
+  padding: 0.75rem;
+  border-radius: 50%;
+}
+
+.info-item h4 {
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.social-contact {
+  margin-top: 2rem;
+}
+
+.social-contact h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Formulario */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+  transition: var(--transition);
+  background-color: var(--bg-color);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-color);
+  background-color: var(--surface-color);
+}
+
+.form-feedback {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Botón de retorno/navegación atrás */
+.back-navigation {
+  margin-bottom: 1.5rem;
+}
+
+.btn-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: var(--transition);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+}
+
+.btn-back:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateX(-3px);
+}
