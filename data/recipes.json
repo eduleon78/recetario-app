@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "ingredients": ["Carne molida de res", "Pan brioche", "Queso cheddar", "Cebolla", "Salsas"],
+    "instructions": "Sazona la carne, da forma a la hamburguesa y cocínala a fuego alto..."
+  },
+  {
+    "id": "2",
+    "title": "Ensalada César",
+    "prepTime": "15 min",
+    "ingredients": ["Lechuga romana", "Crutones", "Queso parmesano", "Aderezo César"],
+    "instructions": "Lava la lechuga, mezcla con el aderezo y decora con parmesano y crutones."
+  }
+]
