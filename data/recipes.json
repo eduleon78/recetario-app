@@ -3,14 +3,120 @@
     "id": "1",
     "title": "Hamburguesa Casera Perfecta",
     "prepTime": "20 min",
-    "ingredients": ["Carne molida de res", "Pan brioche", "Queso cheddar", "Cebolla", "Salsas"],
-    "instructions": "Sazona la carne, da forma a la hamburguesa y cocínala a fuego alto..."
+    "category": "Plato Fuerte",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
   },
   {
     "id": "2",
-    "title": "Ensalada César",
+    "title": "Ensalada César con Pollo",
     "prepTime": "15 min",
-    "ingredients": ["Lechuga romana", "Crutones", "Queso parmesano", "Aderezo César"],
-    "instructions": "Lava la lechuga, mezcla con el aderezo y decora con parmesano y crutones."
+    "category": "Rápidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 lechuga romana",
+      "150g pechuga de pollo a la plancha",
+      "Crutones de pan",
+      "Queso parmesano rallado",
+      "Aderezo César"
+    ],
+    "instructions": [
+      "Lava y corta la lechuga romana en trozos medianos.",
+      "Corta la pechuga de pollo en tiras o cubos.",
+      "Mezcla la lechuga con el aderezo César en un tazón amplio.",
+      "Decora encima con el pollo, los crutones y bastante queso parmesano."
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Pancakes de Avena y Banano",
+    "prepTime": "10 min",
+    "category": "Desayunos",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Roles de Canela Caseros",
+    "prepTime": "45 min",
+    "category": "Merienda",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Pizza Napolitana Casera",
+    "prepTime": "130 min",
+    "category": "Plato Fuerte",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Pollo Agridulce Casero",
+    "prepTime": "30 min",
+    "category": "Plato Fuerte",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
   }
 ]

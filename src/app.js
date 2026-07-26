@@ -1,6 +1,6 @@
-import { RecipeModel } from './js/models/RecipeModel.js';
-import { RecipeView } from './js/views/RecipeView.js';
-import { RecipeController } from './js/controllers/RecipeController.js';
+import { RecipeModel } from './js/model/recipeModel.js';
+import { RecipeView } from './js/views/recipeView.js';
+import { RecipeController } from './js/controllers/recipeController.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const model = new RecipeModel();
