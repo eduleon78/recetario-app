@@ -530,7 +530,7 @@ footer {
 /* ==========================================================================
    SECCIÓN DE BIENVENIDA (SEO HOME TEXT)
    ========================================================================== */
-.welcome-section {
+/* .welcome-section {
   max-width: 1200px;
   margin: 0 auto 2rem;
   padding: 0 1.5rem;
@@ -557,6 +557,126 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
+} */
+
+/* ==========================================================================
+   SECCIÓN DE BIENVENIDA (HERO BANNER RENOVADO)
+   ========================================================================== */
+.welcome-section {
+  max-width: 1200px;
+  margin: 0 auto 2.5rem;
+  padding: 0 1.5rem;
+}
+
+.welcome-card {
+  position: relative;
+  background: linear-gradient(135deg, #ffffff 0%, #fff8f0 100%);
+  border: 1px solid #ffe3d1;
+  border-left: 5px solid var(--primary-color, #e63946);
+  border-radius: var(--radius-lg, 12px);
+  padding: 2.5rem 2rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Insignia superior */
+.welcome-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(230, 57, 70, 0.1);
+  color: var(--primary-color, #e63946);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.welcome-card h2 {
+  font-size: 1.8rem;
+  color: var(--text-main, #2b2d42);
+  margin-bottom: 0.75rem;
+  font-weight: 800;
+}
+
+.welcome-lead {
+  color: var(--text-muted, #4a4e69);
+  font-size: 1rem;
+  max-width: 750px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+/* Bloques de preguntas / características */
+.welcome-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color, #edf2f4);
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2b2d42;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.feature-item i {
+  color: #f77f00;
+}
+
+/* Botón de Llamada a la Acción (CTA) */
+.welcome-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: var(--primary-color, #e63946);
+  color: #ffffff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+}
+
+.welcome-cta:hover {
+  background-color: #d62828;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(230, 57, 70, 0.4);
+}
+
+/* Estado oculto para la sección de bienvenida */
+.welcome-section.hidden {
+  display: none !important;
+}
+
+/* Adaptación para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  .welcome-card {
+    padding: 1.75rem 1.25rem;
+  }
+  .welcome-card h2 {
+    font-size: 1.4rem;
+  }
+  .feature-item {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* ==========================================================================
@@ -815,4 +935,184 @@ footer {
   color: var(--primary-color);
   border-color: var(--primary-color);
   transform: translateX(-3px);
+}
+
+/* ==========================================================================
+   FICHA TÉCNICA DE LA RECETA
+   ========================================================================== */
+/* ==========================================================================
+   FICHA TÉCNICA (DENTRO DEL MODAL) - AJUSTE SIN DESBORDAMIENTO
+   ========================================================================== */
+.recipe-sheet {
+  background-color: var(--bg-color, #f8f9fa);
+  border: 1px solid var(--border-color, #edf2f4);
+  border-radius: var(--radius-md, 10px);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.sheet-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--primary-color, #e63946);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #e0e0e0);
+  padding-bottom: 0.4rem;
+}
+
+/* Grilla segura de 2 columnas que no rompe el modal */
+.sheet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.sheet-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color, #edf2f4);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm, 6px);
+  box-sizing: border-box;
+  overflow: hidden; /* Evita que contenido largo rompa la tarjeta */
+}
+
+.sheet-item i {
+  font-size: 1rem;
+  color: #f77f00;
+  flex-shrink: 0; /* Mantiene el ícono intacto */
+}
+
+.sheet-item div {
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Permite que el texto trunque si es muy largo */
+}
+
+.sheet-label {
+  font-size: 0.7rem;
+  color: var(--text-muted, #6c757d);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.sheet-value {
+  font-size: 0.82rem;
+  color: var(--text-main, #2b2d42);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Añade '...' si el texto de origen es gigante */
+}
+
+/* Ajuste para el origen cuando ocupa las dos columnas */
+.sheet-full-width {
+  grid-column: span 2;
+}
+
+.sheet-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--primary-color, #e63946);
+  margin-bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #edf2f4);
+  padding-bottom: 0.4rem;
+}
+
+/* ==========================================================================
+   ESPACIADO MEJORADO PARA INGREDIENTES E INSTRUCCIONES
+   ========================================================================== */
+
+/* Títulos dentro de la modal (Ingredientes e Instrucciones) */
+.modal-content h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.15rem;
+  color: var(--text-main, #2b2d42);
+  border-bottom: 2px solid var(--border-color, #edf2f4);
+  padding-bottom: 0.4rem;
+}
+
+/* Sección de Ingredientes (Lista no ordenada) */
+.modal-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.modal-content ul li {
+  padding: 0.4rem 0.25rem; /* Más área de toque y separación entre ingredientes */
+  line-height: 1.5;
+  color: var(--text-muted, #4a4e69);
+  border-bottom: 1px dashed var(--border-color, #f0f0f0);
+}
+
+.modal-content ul li:last-child {
+  border-bottom: none;
+}
+
+/* Sección de Instrucciones (Lista ordenada) */
+.modal-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.modal-content ol li {
+  padding: 0.5rem 0.25rem;
+  line-height: 1.6;
+  color: var(--text-muted, #4a4e69);
+}
+
+/* ==========================================================================
+   ESPACIADO COMPACTO PARA INGREDIENTES E INSTRUCCIONES
+   ========================================================================== */
+
+/* Títulos de sección dentro del Modal */
+.modal-content h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem; /* Reducido para acercar el título a la lista */
+  font-size: 1.1rem;
+  color: var(--text-main, #2b2d42);
+  border-bottom: 2px solid var(--border-color, #edf2f4);
+  padding-bottom: 0.25rem;
+}
+
+/* Listas de Ingredientes (ul) e Instrucciones (ol) */
+.modal-content ul,
+.modal-content ol {
+  margin-top: 0;         /* Elimina el margen superior predeterminado */
+  margin-bottom: 1rem;   /* Espacio ligero antes de la siguiente sección */
+  padding-left: 1.25rem; /* Ajusta la sangría de los viñetas/números */
+}
+
+/* Cada ítem de ingrediente */
+.modal-content ul li {
+  padding: 0.2rem 0;     /* Espaciado vertical compacto */
+  line-height: 1.4;
+  color: var(--text-muted, #4a4e69);
+  border-bottom: 1px dashed var(--border-color, #f0f0f0);
+}
+
+.modal-content ul li:last-child {
+  border-bottom: none;
+}
+
+/* Cada paso de instrucción */
+.modal-content ol li {
+  padding: 0.25rem 0;
+  line-height: 1.5;
+  color: var(--text-muted, #4a4e69);
 }

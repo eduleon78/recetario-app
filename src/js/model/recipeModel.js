@@ -25,7 +25,7 @@ export class RecipeModel {
     
     return this.recipes.filter(recipe => {
       const matchesSearch = recipe.title.toLowerCase().includes(q) ||
-                            recipe.ingredients.some(ing => ing.toLowerCase().includes(q));
+        recipe.ingredients.some(ing => ing.toLowerCase().includes(q));
       
       const matchesCategory = category === 'Todas' || recipe.category === category;
 

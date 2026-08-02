@@ -2,8 +2,13 @@
   {
     "id": "1",
     "title": "Hamburguesa Casera Perfecta",
+    "category": "Snacks",
     "prepTime": "20 min",
-    "category": "Plato Fuerte",
+    "cookTime": "10 min",
+    "totalTime": "25 min",
+    "servings": "1 porción",
+    "calories": "550 kcal",
+    "origin": "Estados Unidos / Internacional",
     "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
     "ingredients": [
       "200g carne molida de res",
@@ -21,9 +26,134 @@
   },
   {
     "id": "2",
+    "title": "Pizza Napolitana Casera",
+    "category": " Snacks ",
+    "prepTime": "130 min",
+    "cookTime": "10 min",
+    "totalTime": "25 min",
+    "servings": "8 porciones",
+    "calories": "1100 kcal",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "500 ml agua.",
+      "800 g harina de trigo 00.",
+      "20 g  sal.",
+      "1 g levadura fresca / 3 g levadura seca.",
+      "10 g  azúcar.",
+      "25 ml aceite de oliva.",
+      "300 g salsa napolitana.",
+      "500 g queso mozarella."
+    ],
+    "instructions": [
+      "Mezclar con el agua con la sal, luego y agregar la mitad de la harina.",
+      "agregar la levadura en la harina directamente, mezclar bien, añadir el azúcar.",
+      "agregar el aceite de oliva, amasar todo bien por 20 min.",
+      "reposar 15 min, luego dividir bolas de 250. g.",
+      "reposar  mínimo 2 horas.",
+      "armar la pizza al gusto.",
+      "hornear  por 25 minutos  a 220°."
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Chorinapes",
+   "category": " Snacks ",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "totalTime": "40 min",
+    "servings": "4 porciones",
+    "calories": "850 kcal",
+    "image": "https://images.unsplash.com/photo-1705512557389-841efbde54db?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "4 unid  chorizo de cerdo",
+      "4 panes tipo frances",
+      "Chimichurri",
+      "Cebolla y tomate cortada en cuadritos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Cocinar los chorizos en una sartén por 20 min.",
+      "Agregar los chorizos una vez cocido al pan francés.",
+      "Agrega los otros ingredientes al  gusto a tus choripanes."
+    ]
+
+  },
+  {
+    "id": "4",
+    "title": "Hotdog Casero",
+    "category": " Snacks ",
+    "prepTime": "20 min",
+    "cookTime": "20 min",
+    "totalTime": "40 min",
+    "servings": "4 porciones",
+    "calories": "850 kcal",    
+    "image": "https://images.unsplash.com/photo-1619538189873-3f511db5fec6?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "Pan suave para hotdog",
+      "salchichas de res o cerdo",
+      "repollo finamente picado",
+      "cebolla triturada ",
+      "papitas fritas para perros calientes",
+      "queso rallado duro (pecorino o gouda",
+      "salsas: mayonesa, kétchup, mostaza, salsa bbq, salsa maíz, salsa de ajo"
+    ],
+    "instructions": [
+      "cocinar las salchichas en agua hervida.",
+      "calentar el pan previamente cortado por el centro.",
+      "colocar la salchicha en los panes ya calientes.",
+      "rellenar con el repollos, cebolla y papitas.",
+      "agregar las salsas al gusto."
+    ]
+
+  },
+  {
+    "id": "5",
+    "title": "Sandwich Deli de Pollo",
+   "category": " Snacks ",
+    "prepTime": "05 min",
+    "cookTime": "20 min",
+    "totalTime": "25 min",
+    "servings": "2 porciones",
+    "calories": "550 kcal",
+    "image": "https://images.unsplash.com/photo-1700937244987-92488ab2ada5?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "Pan tipo deli.",
+      "milanesa de pollo.",
+      "vegetales.",
+      "Salsa al gusto: mostaza, mayonesa, ketchup. ",
+      "80 g queso mozarella."
+    ],
+    "instructions": [
+      "cocinar la milanesa a la parrilla.",
+      "armar el pan deli con el pollo y los vegetales.",
+      "agregar las salsas al gusto."
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "category": "Merienda y Snacks",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
+  },
+  {
+    "id": "7",
     "title": "Ensalada César con Pollo",
     "prepTime": "15 min",
-    "category": "Rápidas",
+    "category": "Merienda y Snacks",
     "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
     "ingredients": [
       "1 lechuga romana",
@@ -40,7 +170,127 @@
     ]
   },
   {
-    "id": "3",
+    "id": "8",
+    "title": "Pancakes de Avena y Banano",
+    "prepTime": "10 min",
+    "category": "Merienda y Snacks",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Roles de Canela Caseros",
+    "prepTime": "45 min",
+    "category": "Merienda y Snacks",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Pizza Napolitana Casera",
+    "prepTime": "130 min",
+    "category": "Merienda y Snacks",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Pollo Agridulce Casero",
+    "prepTime": "30 min",
+    "category": "Desayunos",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "category": "Desayunos",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Ensalada César con Pollo",
+    "prepTime": "15 min",
+    "category": "Desayunos",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 lechuga romana",
+      "150g pechuga de pollo a la plancha",
+      "Crutones de pan",
+      "Queso parmesano rallado",
+      "Aderezo César"
+    ],
+    "instructions": [
+      "Lava y corta la lechuga romana en trozos medianos.",
+      "Corta la pechuga de pollo en tiras o cubos.",
+      "Mezcla la lechuga con el aderezo César en un tazón amplio.",
+      "Decora encima con el pollo, los crutones y bastante queso parmesano."
+    ]
+  },
+  {
+    "id": "14",
     "title": "Pancakes de Avena y Banano",
     "prepTime": "10 min",
     "category": "Desayunos",
@@ -60,10 +310,10 @@
     ]
   },
   {
-    "id": "4",
+    "id": "15",
     "title": "Roles de Canela Caseros",
     "prepTime": "45 min",
-    "category": "Merienda",
+    "category": "Desayunos",
     "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
     "ingredients": [
       "1 banano maduro",
@@ -80,10 +330,10 @@
     ]
   },
   {
-    "id": "5",
+    "id": "16",
     "title": "Pizza Napolitana Casera",
     "prepTime": "130 min",
-    "category": "Plato Fuerte",
+    "category": "Cenas Ligeras  / Rapidas",
     "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
     "ingredients": [
       "1 banano maduro",
@@ -100,10 +350,370 @@
     ]
   },
   {
-    "id": "6",
-    "title": "Pollo Agridulce Casero",
-    "prepTime": "30 min",
-    "category": "Plato Fuerte",
+    "id": "17",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "category": "Cenas Ligeras  / Rapidas",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Ensalada César con Pollo",
+    "prepTime": "15 min",
+    "category": "Cenas Ligeras  / Rapidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 lechuga romana",
+      "150g pechuga de pollo a la plancha",
+      "Crutones de pan",
+      "Queso parmesano rallado",
+      "Aderezo César"
+    ],
+    "instructions": [
+      "Lava y corta la lechuga romana en trozos medianos.",
+      "Corta la pechuga de pollo en tiras o cubos.",
+      "Mezcla la lechuga con el aderezo César en un tazón amplio.",
+      "Decora encima con el pollo, los crutones y bastante queso parmesano."
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Pancakes de Avena y Banano",
+    "prepTime": "10 min",
+    "category": "Cenas Ligeras  / Rapidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Roles de Canela Caseros",
+    "prepTime": "45 min",
+    "category": "Cenas Ligeras  / Rapidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Pizza Napolitana Casera",
+    "prepTime": "130 min",
+    "category": "Postres",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "category": "Postres",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Ensalada César con Pollo",
+    "prepTime": "15 min",
+    "category": "Postres",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 lechuga romana",
+      "150g pechuga de pollo a la plancha",
+      "Crutones de pan",
+      "Queso parmesano rallado",
+      "Aderezo César"
+    ],
+    "instructions": [
+      "Lava y corta la lechuga romana en trozos medianos.",
+      "Corta la pechuga de pollo en tiras o cubos.",
+      "Mezcla la lechuga con el aderezo César en un tazón amplio.",
+      "Decora encima con el pollo, los crutones y bastante queso parmesano."
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Pancakes de Avena y Banano",
+    "prepTime": "10 min",
+    "category": "Postres",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Roles de Canela Caseros",
+    "prepTime": "45 min",
+    "category": "Postres",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Pizza Napolitana Casera",
+    "prepTime": "130 min",
+    "category": "Glutten Free (Sin Glutten)",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "category": "Glutten Free (Sin Glutten)",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Ensalada César con Pollo",
+    "prepTime": "15 min",
+    "category": "Glutten Free (Sin Glutten)",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 lechuga romana",
+      "150g pechuga de pollo a la plancha",
+      "Crutones de pan",
+      "Queso parmesano rallado",
+      "Aderezo César"
+    ],
+    "instructions": [
+      "Lava y corta la lechuga romana en trozos medianos.",
+      "Corta la pechuga de pollo en tiras o cubos.",
+      "Mezcla la lechuga con el aderezo César en un tazón amplio.",
+      "Decora encima con el pollo, los crutones y bastante queso parmesano."
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Pancakes de Avena y Banano",
+    "prepTime": "10 min",
+    "category": "Glutten Free (Sin Glutten)",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Roles de Canela Caseros",
+    "prepTime": "45 min",
+    "category": "Glutten Free (Sin Glutten)",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Pizza Napolitana Casera",
+    "prepTime": "130 min",
+    "category": "Batidos y Bebidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Hamburguesa Casera Perfecta",
+    "prepTime": "20 min",
+    "category": "Batidos y Bebidas",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "200g carne molida de res",
+      "1 pan brioche",
+      "2 rebanadas de queso cheddar",
+      "Cebolla y pepinillos",
+      "Salsas al gusto"
+    ],
+    "instructions": [
+      "Sazona la carne molida con sal y pimienta sin amasar demasiado.",
+      "Calienta una sartén de hierro a fuego alto.",
+      "Cocina la carne 3 minutos por lado agregando el queso al final para que se derrita.",
+      "Tuesta el pan brioche con un poco de mantequilla y arma la hamburguesa."
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Ensalada César con Pollo",
+    "prepTime": "15 min",
+    "category": "Batidos y Bebidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 lechuga romana",
+      "150g pechuga de pollo a la plancha",
+      "Crutones de pan",
+      "Queso parmesano rallado",
+      "Aderezo César"
+    ],
+    "instructions": [
+      "Lava y corta la lechuga romana en trozos medianos.",
+      "Corta la pechuga de pollo en tiras o cubos.",
+      "Mezcla la lechuga con el aderezo César en un tazón amplio.",
+      "Decora encima con el pollo, los crutones y bastante queso parmesano."
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Pancakes de Avena y Banano",
+    "prepTime": "10 min",
+    "category": "Batidos y Bebidas",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "ingredients": [
+      "1 banano maduro",
+      "1 huevo",
+      "1/2 taza de avena en hojuelas",
+      "1 chorrito de leche",
+      "Esencia de vainilla y canela"
+    ],
+    "instructions": [
+      "Tritura el banano en un plato con un tenedor.",
+      "Mezcla con el huevo, la avena, la leche, la vainilla y la canela.",
+      "Vierte porciones en una sartén antiadherente a fuego medio.",
+      "Voltea cuando salgan burbujas y sirve con miel."
+    ]
+  },
+  {
+    "id": "35",
+    "title": "Roles de Canela Caseros",
+    "prepTime": "45 min",
+    "category": "Batidos y Bebidas",
     "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
     "ingredients": [
       "1 banano maduro",

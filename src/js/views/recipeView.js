@@ -60,8 +60,52 @@ export class RecipeView {
         <button class="modal-close">&times;</button>
         <img src="${recipe.image}" alt="${recipe.title}" class="modal-image">
         <h2>${recipe.title}</h2>
-        <p class="modal-meta">📁 <strong>${recipe.category}</strong> | ⏱️ <strong>${recipe.prepTime}</strong></p>
-        
+
+        <!-- FICHA TÉCNICA (NUEVO) -->
+        <div class="recipe-sheet">
+          <div class="sheet-grid">
+            <div class="sheet-item">
+              <i class="fas fa-users"></i>
+              <div>
+                <span class="sheet-label">Porciones</span>
+                <strong class="sheet-value">${recipe.servings || '4 porciones'}</strong>
+              </div>
+            </div>
+
+            <div class="sheet-item">
+              <i class="fas fa-hourglass-start"></i>
+              <div>
+                <span class="sheet-label">Prep.</span>
+                <strong class="sheet-value">${recipe.prepTime || '15 min'}</strong>
+              </div>
+            </div>
+
+            <div class="sheet-item">
+              <i class="fas fa-fire-burner"></i>
+              <div>
+                <span class="sheet-label">Cocción</span>
+                <strong class="sheet-value">${recipe.cookTime || '10 min'}</strong>
+              </div>
+            </div>
+
+            <div class="sheet-item">
+              <i class="fas fa-fire"></i>
+              <div>
+                <span class="sheet-label">Calorías</span>
+                <strong class="sheet-value">${recipe.calories || 'N/A'}</strong>
+              </div>
+            </div>
+
+            <div class="sheet-item sheet-full-width">
+              <i class="fas fa-globe-americas"></i>
+              <div>
+                <span class="sheet-label">Origen / Estilo</span>
+                <strong class="sheet-value">${recipe.origin || 'Internacional'}</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <h3>Ingredientes</h3>
         <ul>
           ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
